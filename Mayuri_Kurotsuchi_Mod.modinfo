@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b1c9f450-12ab-4c5e-8f23-mayurikurots" version="1">
+  <Properties>
+    <Name>LOC_MOD_MAYURI_KUROTSUCHI_NAME</Name>
+    <Description>LOC_MOD_MAYURI_KUROTSUCHI_DESCRIPTION</Description>
+    <Teaser>Mayuri Kurotsuchi leads 12th Division Gotei 13 in Civ VI.</Teaser>
+    <Authors>ZeroTwoHir0065</Authors>
+    <CompatibleVersions>1.2, 2.0</CompatibleVersions>
+  </Properties>
+
+  <!-- Настройка меню выбора лидера (FrontEnd) -->
+  <FrontEndActions>
+    <ImportFiles id="Mayuri_FrontEnd_Imports">
+      <File>mayuri_256.dds</File>
+      <File>mayuri_80.dds</File>
+      <File>mayuri_50.dds</File>
+      <File>mayuri_38.dds</File>
+      <File>mayuri_32.dds</File>
+      <File>mayuri_portrait.dds</File>
+      <File>gotei13_256.dds</File>
+      <File>gotei13_80.dds</File>
+      <File>gotei13_50.dds</File>
+      <File>gotei13_38.dds</File>
+      <File>gotei13_32.dds</File>
+      <File>district_sri_256.dds</File>
+      <File>district_sri_80.dds</File>
+      <File>district_sri_50.dds</File>
+      <File>district_sri_38.dds</File>
+      <File>district_sri_32.dds</File>
+      <File>unit_operative_256.dds</File>
+      <File>unit_operative_80.dds</File>
+      <File>unit_operative_50.dds</File>
+      <File>unit_operative_38.dds</File>
+      <File>unit_operative_32.dds</File>
+      <File>unit_lieutenant_256.dds</File>
+      <File>unit_lieutenant_80.dds</File>
+      <File>unit_lieutenant_50.dds</File>
+      <File>unit_lieutenant_38.dds</File>
+      <File>unit_lieutenant_32.dds</File>
+      <File>unit_line_infantry_256.dds</File>
+      <File>unit_line_infantry_80.dds</File>
+      <File>unit_line_infantry_50.dds</File>
+      <File>unit_line_infantry_38.dds</File>
+      <File>unit_line_infantry_32.dds</File>
+      <File>unit_subject_256.dds</File>
+      <File>unit_subject_80.dds</File>
+      <File>unit_subject_50.dds</File>
+      <File>unit_subject_38.dds</File>
+      <File>unit_subject_32.dds</File>
+    </ImportFiles>
+    <UpdateDatabase id="Mayuri_Config">
+      <File>Core/Civ_Mayuri_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Mayuri_FrontColors">
+      <File>Core/Civ_Mayuri_Colors.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Mayuri_FrontIcons">
+      <File>Core/Civ_Mayuri_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Mayuri_Config_Text">
+      <File>Text/Civ_Mayuri_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="Mayuri_FrontArt">
+      <File>Mayuri_Kurotsuchi_Mod.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+
+  <!-- Загрузка файлов в саму игру (InGame) -->
+  <InGameActions>
+    <ImportFiles id="Mayuri_InGame_Imports">
+      <File>mayuri_256.dds</File>
+      <File>mayuri_80.dds</File>
+      <File>mayuri_50.dds</File>
+      <File>mayuri_38.dds</File>
+      <File>mayuri_32.dds</File>
+      <File>mayuri_portrait.dds</File>
+      <File>gotei13_256.dds</File>
+      <File>gotei13_80.dds</File>
+      <File>gotei13_50.dds</File>
+      <File>gotei13_38.dds</File>
+      <File>gotei13_32.dds</File>
+      <File>district_sri_256.dds</File>
+      <File>district_sri_80.dds</File>
+      <File>district_sri_50.dds</File>
+      <File>district_sri_38.dds</File>
+      <File>district_sri_32.dds</File>
+      <File>unit_operative_256.dds</File>
+      <File>unit_operative_80.dds</File>
+      <File>unit_operative_50.dds</File>
+      <File>unit_operative_38.dds</File>
+      <File>unit_operative_32.dds</File>
+      <File>unit_lieutenant_256.dds</File>
+      <File>unit_lieutenant_80.dds</File>
+      <File>unit_lieutenant_50.dds</File>
+      <File>unit_lieutenant_38.dds</File>
+      <File>unit_lieutenant_32.dds</File>
+      <File>unit_line_infantry_256.dds</File>
+      <File>unit_line_infantry_80.dds</File>
+      <File>unit_line_infantry_50.dds</File>
+      <File>unit_line_infantry_38.dds</File>
+      <File>unit_line_infantry_32.dds</File>
+      <File>unit_subject_256.dds</File>
+      <File>unit_subject_80.dds</File>
+      <File>unit_subject_50.dds</File>
+      <File>unit_subject_38.dds</File>
+      <File>unit_subject_32.dds</File>
+    </ImportFiles>
+    <UpdateDatabase id="Mayuri_Gameplay">
+      <File>Core/Civ_Mayuri_Civilization.sql</File>
+      <File>Core/Civ_Mayuri_Leader.sql</File>
+      <File>Core/Civ_Mayuri_Districts.sql</File>
+      <File>Core/Civ_Mayuri_Units.sql</File>
+      <File>Core/Civ_Mayuri_Musketman.sql</File>
+      <File>Core/Civ_Mayuri_Infantry.sql</File>
+      <File>Core/Civ_Mayuri_Subjects.sql</File>
+      <File>Core/Civ_Mayuri_Ability.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="Mayuri_Scripts">
+      <File>Scripts/Mayuri_Subjects.lua</File>
+    </AddGameplayScripts>
+    <UpdateDatabase id="Mayuri_InGame_Colors">
+      <File>Core/Civ_Mayuri_Colors.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Mayuri_Icons">
+      <File>Core/Civ_Mayuri_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Mayuri_Text">
+      <File>Text/Civ_Mayuri_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="Mayuri_Art">
+      <File>Mayuri_Kurotsuchi_Mod.dep</File>
+    </UpdateArt>
+  </InGameActions>
+
+  <!-- Общий список всех файлов мода -->
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Scripts/Mayuri_Subjects.lua</File>
+    <File>Core/Civ_Mayuri_Subjects.sql</File>
+    <File>Core/Civ_Mayuri_Ability.sql</File>
+    <File>Core/Civ_Mayuri_Civilization.sql</File>
+    <File>Core/Civ_Mayuri_Colors.sql</File>
+    <File>Core/Civ_Mayuri_Config.sql</File>
+    <File>Core/Civ_Mayuri_Districts.sql</File>
+    <File>Core/Civ_Mayuri_Icons.sql</File>
+    <File>Core/Civ_Mayuri_Infantry.sql</File>
+    <File>Core/Civ_Mayuri_Leader.sql</File>
+    <File>Core/Civ_Mayuri_Musketman.sql</File>
+    <File>Core/Civ_Mayuri_Units.sql</File>
+    <File>Mayuri_Kurotsuchi_Mod.dep</File>
+    <File>mayuri.jpg</File>
+    <File>mayuri_256.dds</File>
+    <File>mayuri_80.dds</File>
+    <File>mayuri_50.dds</File>
+    <File>mayuri_38.dds</File>
+    <File>mayuri_32.dds</File>
+    <File>mayuri_portrait.dds</File>
+    <File>gotei13_256.dds</File>
+    <File>gotei13_80.dds</File>
+    <File>gotei13_50.dds</File>
+    <File>gotei13_38.dds</File>
+    <File>gotei13_32.dds</File>
+    <File>district_sri_256.dds</File>
+    <File>district_sri_80.dds</File>
+    <File>district_sri_50.dds</File>
+    <File>district_sri_38.dds</File>
+    <File>district_sri_32.dds</File>
+    <File>unit_operative_256.dds</File>
+    <File>unit_operative_80.dds</File>
+    <File>unit_operative_50.dds</File>
+    <File>unit_operative_38.dds</File>
+    <File>unit_operative_32.dds</File>
+    <File>unit_lieutenant_256.dds</File>
+    <File>unit_lieutenant_80.dds</File>
+    <File>unit_lieutenant_50.dds</File>
+    <File>unit_lieutenant_38.dds</File>
+    <File>unit_lieutenant_32.dds</File>
+    <File>unit_line_infantry_256.dds</File>
+    <File>unit_line_infantry_80.dds</File>
+    <File>unit_line_infantry_50.dds</File>
+    <File>unit_line_infantry_38.dds</File>
+    <File>unit_line_infantry_32.dds</File>
+    <File>unit_subject_256.dds</File>
+    <File>unit_subject_80.dds</File>
+    <File>unit_subject_50.dds</File>
+    <File>unit_subject_38.dds</File>
+    <File>unit_subject_32.dds</File>
+    <File>gotei13.jpg</File>
+    <File>district_sri.jpg</File>
+    <File>unit_operative.jpg</File>
+    <File>unit_lieutenant.jpg</File>
+    <File>unit_line_infantry.jpg</File>
+    <File>unit_subject.jpg</File>
+    <File>Text/Civ_Mayuri_Text.xml</File>
+  </Files>
+</Mod>

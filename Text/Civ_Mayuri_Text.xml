@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Row Language="ru_RU" Tag="LOC_MOD_MAYURI_KUROTSUCHI_NAME">
+      <Text>Bleach: Маюри Куроцучи (12-й Отряд)</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_MOD_MAYURI_KUROTSUCHI_DESCRIPTION">
+      <Text>Добавляет Маюри Куроцучи и 12-й Отряд Gotei 13 с уникальной механикой захвата пленных в качестве подопытных.</Text>
+    </Row>
+
+    <!-- Цивилизация и Лидер -->
+    <Row Language="ru_RU" Tag="LOC_CIVILIZATION_GOTEI13_NAME">
+      <Text>Gotei 13</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_CIVILIZATION_GOTEI13_DESCRIPTION">
+      <Text>Военная организация проводников душ, защищающая Общество душ и руководящая его развитием.</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_LEADER_MAYURI_KUROTSUCHI_NAME">
+      <Text>Маюри Куроцучи</Text>
+    </Row>
+
+    <!-- Способности -->
+    <Row Language="ru_RU" Tag="LOC_TRAIT_CIVILIZATION_GOTEI13_NAME">
+      <Text>Научно-исследовательский институт</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_TRAIT_CIVILIZATION_GOTEI13_DESCRIPTION">
+      <Text>Доступ к Уникальному району «НИИ Синигами» и уникальным войскам 12-го отряда.</Text>
+    </Row>
+
+    <Row Language="ru_RU" Tag="LOC_TRAIT_LEADER_RESEARCH_AND_SACRIFICE_NAME">
+      <Text>Бессердечные исследования</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_TRAIT_LEADER_RESEARCH_AND_SACRIFICE_DESCRIPTION">
+      <Text>Победа над вражеским боевым юнитом захватывает его на месте гибели как Подопытного. Обычные войска дают Подопытного I, уникальные юниты 12-го отряда — Подопытного II (вдвое больше Науки). Подопытный, зайдя в район «НИИ Синигами», расходуется и даёт разовую Науку, растущую с эпохой (50 в Древнем мире, ~150 в Средневековье, ~350 в Новое время, 800+ в Новейшее время).</Text>
+    </Row>
+
+    <!-- Способность юнита -->
+    <Row Language="ru_RU" Tag="LOC_ABILITY_MAYURI_CAPTURE_EXPERIMENT_NAME">
+      <Text>Захват подопытных</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_ABILITY_MAYURI_CAPTURE_EXPERIMENT_DESCRIPTION">
+      <Text>При уничтожении вражеского боевого юнита захватывает его на этой клетке как Подопытного I.</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_ABILITY_MAYURI_CAPTURE_ELITE_NAME">
+      <Text>Захват живых подопытных</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_ABILITY_MAYURI_CAPTURE_ELITE_DESCRIPTION">
+      <Text>При уничтожении вражеского боевого юнита захватывает его почти целым — Подопытный II даёт вдвое больше Науки.</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_UNIT_SDRI_SUBJECT_NAME">
+      <Text>Подопытный I</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_UNIT_SDRI_SUBJECT_DESCRIPTION">
+      <Text>Захваченный обычными войсками, едва живой. Войдите в район «НИИ Синигами» — юнит будет израсходован и даст разовое количество Науки в зависимости от эпохи (50 / ~150 / ~350 / 800+).</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_UNIT_SDRI_SUBJECT_2_NAME">
+      <Text>Подопытный II</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_UNIT_SDRI_SUBJECT_2_DESCRIPTION">
+      <Text>Захвачен уникальными юнитами 12-го отряда живым и целым. Войдите в район «НИИ Синигами» — даёт вдвое больше Науки, чем Подопытный I (100 / ~300 / ~700 / 1600+).</Text>
+    </Row>
+
+    <!-- Уникальный район -->
+    <Row Language="ru_RU" Tag="LOC_DISTRICT_SHINIGAMI_RESEARCH_INSTITUTE_NAME">
+      <Text>НИИ Синигами</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_DISTRICT_SHINIGAMI_RESEARCH_INSTITUTE_DESCRIPTION">
+      <Text>Уникальный научный район Готей 13, заменяющий Кампус. Дает повышенные бонусы за соседство и очки великих ученых. Единственное место, где можно израсходовать Подопытных ради Науки.</Text>
+    </Row>
+
+    <!-- Уникальные юниты -->
+    <Row Language="ru_RU" Tag="LOC_UNIT_SDRI_OPERATIVE_NAME">
+      <Text>Оперативник 12-го отряда</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_UNIT_SDRI_OPERATIVE_DESCRIPTION">
+      <Text>Уникальный юнит античности/классики, заменяющий Мечника. Обладает увеличенной силой (42) и 3 ОМ.</Text>
+    </Row>
+
+    <Row Language="ru_RU" Tag="LOC_UNIT_SDRI_LIEUTENANT_NAME">
+      <Text>Лейтенант 12-го отряда</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_UNIT_SDRI_LIEUTENANT_DESCRIPTION">
+      <Text>Уникальный пороховой юнит 12-го отряда, заменяющий Мушкетёра. Обладает повышенной силой (68) и 3 ОМ.</Text>
+    </Row>
+
+    <Row Language="ru_RU" Tag="LOC_UNIT_SDRI_LINE_INFANTRY_NAME">
+      <Text>Линейный пехотинец 12-го отряда</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_UNIT_SDRI_LINE_INFANTRY_DESCRIPTION">
+      <Text>Уникальный пехотный юнит 12-го отряда, заменяющий Линейного пехотинца. Обладает боевой мощью 78 и 3 ОМ. Захватывает Подопытных II.</Text>
+    </Row>
+
+    <Row Language="ru_RU" Tag="LOC_LEADER_MAYURI_KUROTSUCHI_QUOTE">
+      <Text>«Идеала не существует. Этот мир несовершенен, и поэтому он прекрасен». — Маюри Куроцучи</Text>
+    </Row>
+
+    <!-- Названия и термины -->
+    <Row Language="ru_RU" Tag="LOC_CIVILIZATION_GOTEI13_ADJECTIVE">
+      <Text>Gotei 13</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_CITY_NAME_SEIREITEI">
+      <Text>Сейрейтей</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_CITY_NAME_SDR_LAB">
+      <Text>Лаборатория НИИ</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_CITY_NAME_RUKON_1">
+      <Text>Руконгай: Дзюнринъан</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_CITY_NAME_RUKON_2">
+      <Text>Руконгай: Инудзури</Text>
+    </Row>
+    <Row Language="ru_RU" Tag="LOC_CITY_NAME_RUKON_3">
+      <Text>Руконгай: Кусашиши</Text>
+    </Row>
+  </LocalizedText>
+</GameData>
