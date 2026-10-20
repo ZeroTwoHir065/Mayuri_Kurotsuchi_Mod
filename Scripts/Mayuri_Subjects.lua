@@ -19,7 +19,7 @@ local SUBJECT_MULT = {
     UNIT_SDRI_SUBJECT_2 = 2,
 }
 
-local ERA_BASE_SCIENCE = { [0]=50, 100, 150, 250, 350, 550, 800, 1000, 1200 }
+local ERA_BASE_SCIENCE = { [0]=25, 50, 75, 100, 150, 200, 300, 400, 500 }
 
 -- ============================= Helpers ==============================
 
